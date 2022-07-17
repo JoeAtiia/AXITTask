@@ -1,0 +1,307 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+/* navigation bar */
+nav{
+    background-color: rgb(0, 0, 0);
+    /* height:10%; */
+    padding:1% 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    width:84%;
+    margin:auto;
+}
+nav h1{
+    float:left;
+    font-size: 30px;
+    margin-right:550px;
+}
+nav ul li{
+    text-decoration:none;
+    float: left;
+    list-style: none;
+    margin-left:4%;
+    font-size: 20px;
+}
+nav a{
+    text-decoration:none;
+    color:white;
+    /* float:right; */
+}
+.clear{
+    clear:both;
+}
+/* ------------------------------------------------------------- */
+/* Section1 */
+.section1{
+    /* height:700px; */
+    /* background-color:blue; */
+    background-image: url(1.jpg);
+    
+    /* background-color: red; */
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.466);
+}
+.section1 .container{
+    width:88%;
+    margin:auto;
+    /* height:700px; */
+    /* background-color: aquamarine; */
+}
+
+.section1 .leftCard{
+    width:45%;
+    height:100%;
+    /* background-color: blueviolet; */
+    display:inline-block;
+    padding-top:10%;
+    padding-left:7%;
+}
+.section1 .leftCard h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size:60px;
+    font-weight:bold;
+    margin-bottom: 10px;
+}
+.section1 .leftCard h1{
+  
+    margin-bottom: 2%;
+}
+.section1 .leftCard p{
+    font-size:30px;
+    margin-bottom: 2%;
+    
+}
+.section1 .leftCard .supText{
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.section1 .leftCard button{
+
+    font-size: 15px;
+    background-color: transparent;
+    width:20%;
+    height:4%;
+    color:white;
+    border-color: white;
+    border-style: solid;
+    
+}
+.section1 .rightCard{
+    width:35%;
+    height:700px;
+    /* background-color: rgb(43, 226, 43); */
+    display:inline-block;
+    float:right;
+    padding-top:10%;
+    padding-left:5%;
+}
+.section1 .card{
+    width:80%;
+    /* height:50%; */
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    
+}
+.section1 .card h1{
+    width:100%;
+    text-align:center;
+    /* height:50%; */
+    background-color: #DAD8D8;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    font-size: 25px;
+}
+.section1 .card input{
+   display:block;
+   width:85%;
+   height:40px;
+   margin-top:10%;
+   margin-left:5%;
+   border:none;
+   border-bottom: solid 1px rgb(146, 146, 146);
+}
+.section1 .card .get{
+    text-align:center;
+    /* height:50%; */
+    background-color: #FFA260;
+    width:100%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-top: 14%;
+    height:16%;
+    padding-top:4%
+}
+.section1 .card button{
+    background-color: transparent;
+    border:none;
+    color:white;
+    font-size: 22px;
+    margin-bottom: 2%;
+}
+/* ------------------------------------------------------------- */
+/* Social media bar */
+
+.socialMedia{
+    background-color: #FFFFFF;
+}
+.socialMedia .container{
+    /* background-color: #FFA260; */
+    padding-top: 1%;
+}
+.socialMedia .info{
+    /* float:left; */
+    display: inline-block;
+    width:40%;
+    /* background-color: blue; */
+    font-family: 'Open Sans', sans-serif;
+}
+.socialMedia .info p{
+    color:#9C9DA0;
+}
+.socialMedia .icons{
+    float:right;
+    /* background-color: aqua; */
+    display: inline-block;
+    width:45%;
+}
+.socialMedia .icons i{
+    font-size: 45px;
+    padding:0px 3%;
+    color:lightgray;
+}
+/* ------------------------------------------------------------- */
+/* about section */
+.about{
+   
+    background-color:#F5F5F5;
+}
+.about .container{
+    height:500px;
+    padding-top:8%;
+}
+.about .left{
+    float:left;
+    width:20%;
+    /* height:100%; */
+    /* background-color:aqua; */
+    /* box-sizing: border-box; */
+    display: inline-block;
+    padding-top:2%;
+    /* background-color: aqua; */
+    /* display: flex; */
+}
+.about ul{
+    /* display: inline-block; */
+}
+.about .lii{
+    background-color:#333333;
+    padding:20% 0%;
+    margin-bottom:1%;
+    width:50%;
+    text-align: center;
+    text-decoration: none;
+    list-style:none;
+    color:white;
+}
+.about .lii:hover{
+    background-color:#FF8B38;
+    padding:20% 0%;
+    margin-bottom:1%;
+    width:50%;
+    text-align: center;
+    text-decoration: none;
+    list-style:none;
+    color:white;
+}
+.about .lii1{
+    background-color:#FF8B38;
+    padding:20% 0%;
+    margin-bottom:1%;
+    width:50%;
+    text-align: center;
+    text-decoration: none;
+    list-style:none;
+    color:white;
+}
+
+.about .middle{
+    width:47%;
+    height:50%;
+    /* background-color:rgb(24, 82, 82); */
+    box-sizing: border-box;
+    display: inline-block;
+    padding-bottom:0px;
+}
+.about .middle h3{
+    color:#444444;
+    margin-bottom:7%;
+    font-family: 'Open Sans', sans-serif;
+    /* margin-top:9%; */
+    font-weight:900;
+}
+.about .middle p{
+    color:#9C9DA0;
+    margin-bottom:7%;
+    font-family: 'Open Sans', sans-serif;
+}
+.about .middle button{
+    background-color:#FF8B38;
+    color:white;
+    padding:2% 4%;
+    border:none;
+    border-radius:2px;
+    font-size: 16px;
+}
+.about .middle button:hover{
+    background-color:#000000;
+    color:white;
+    padding:2% 4%;
+    border:none;
+    border-radius:2px;
+    font-size: 16px;
+}
+.about .right{
+    width:30%;
+    height:50%;
+    /* background-color:rgb(90, 161, 42); */
+    box-sizing: border-box;
+    display: inline-block;
+    float:right;
+}
+.about .right img{
+    -webkit-box-reflect:below 0px linear-gradient(transparent,transparent,#0004) ;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* text colors and family */
+.fontfamily{
+    font-family: 'Open Sans', sans-serif;
+}
+.textOrange{
+    color:orange;
+}
+.textWhite{
+    color:white;
+}
+.textLightGray{
+    color:lightgray;
+}
